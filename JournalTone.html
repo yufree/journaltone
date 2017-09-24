@@ -49,7 +49,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div id="section-usage" class="section level3">
 <h3>Usage</h3>
 <p>Change the journal ISSN number before [TA] and the time range before[DP] to get the records from pubmed. I limited the numbers of records to 10000. Since such fetch from Pubmed might be blocked, try to use it carefully. I suggest every query should be limited no more than 8000, which is enough to show some trends.</p>
-<p>Just click <code>run codes</code> to get the results</p>
+<p>Just click <code>Run Code</code> to get the results</p>
 <div class="tutorial-exercise" data-label="journal" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>query &lt;- &#39;0003-2700[TA] AND 2017/06:2017/08[DP]&#39;
 # fetch data
@@ -237,7 +237,7 @@ top_terms %&gt;%
 <div id="section-usage-1" class="section level3">
 <h3>Usage</h3>
 <p>Change the keywords before [MH] and the time range before[DP] to get the records from pubmed. I limited the numbers of records to 10000. Since such fetch from Pubmed might be blocked, try to use it carefully. I suggest every query should be limited no more than 8000, which is enough to show some trends.</p>
-<p>Just click <code>run codes</code> to get the results</p>
+<p>Just click <code>Run Code</code> to get the results</p>
 <div class="tutorial-exercise" data-label="keywords" data-caption="Code" data-completion="1" data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>query &lt;- &#39;Solid Phase MicroExtraction[MH] AND 1997/08:2017/08[DP]&#39;
 tmdf &lt;- getpubmed(query, start = 1, end = 10000) %&gt;%
