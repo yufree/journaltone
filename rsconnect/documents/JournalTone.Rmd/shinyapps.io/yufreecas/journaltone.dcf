@@ -5,8 +5,8 @@ account: yufreecas
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 218098
-bundleId: 995001
+bundleId: 995226
 url: https://yufreecas.shinyapps.io/journaltone/
-when: 1506285631.00575
+when: 1506299958.23714
 asMultiple: FALSE
 asStatic: FALSE
